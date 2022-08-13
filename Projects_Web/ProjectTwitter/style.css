@@ -253,12 +253,12 @@ body{
     display: flex;
     flex-direction: column;
 }
-.postagem1{
+.postagem1, .postagem2{
     display: flex;
     flex-direction: row;
     border-bottom: solid 1px rgb(117, 117, 117)
 }
-.conteudopost1{
+.conteudopost1, .conteudopostagem2{
     display: flex;
     flex-direction: row;
     gap: 15px;
@@ -299,9 +299,10 @@ body{
     height: 40px;
     margin-top: 5px;
 }
-.postagem1:hover{
+.postagem1, .postagem2:hover{
     background-color:rgba(206, 206, 206, 0.123);
     cursor: pointer;
+    height: 380px;
 }
 .tresponto{
     color:rgb(129, 129, 129);
@@ -324,6 +325,7 @@ body{
 .postagens{
     display: flex;
     flex-direction: column;
+    gap: 20px;
 }
 .textopostagem1{
     color: rgb(218, 218, 218);
