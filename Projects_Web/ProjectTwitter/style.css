@@ -157,6 +157,7 @@ body{
     border-radius: 30px;
     height: 44px;
     width: 44px;
+    margin-left: 60px;
 
 }
 .toptweets:hover{
@@ -203,6 +204,7 @@ body{
     display: flex;
     flex-direction: row;
     align-items: center;
+    gap: 15px;
     margin-top: 10px;
     margin-left: 100px;
 
@@ -342,7 +344,7 @@ body{
     margin-left: 800px;
     position: absolute;
 }
-.tresponto, .tresponto2:hover{
+.tresponto:hover, .tresponto2:hover{
     background-color:rgba(73, 170, 250, 0.144);
     color:rgb(0, 153, 255);
     height: 40px;
