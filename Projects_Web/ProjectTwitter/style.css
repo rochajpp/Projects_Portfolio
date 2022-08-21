@@ -348,7 +348,7 @@ body{
     align-items: center;
 }
 .tresponto2{
-    margin-left: 800px;
+    margin-left: 840px;
     position: absolute;
 }
 .tresponto:hover, .tresponto2:hover{
@@ -461,22 +461,82 @@ body{
     flex-direction: column;
     gap: 5px;
     font-size: 17px;
-    color: rgb(151, 151, 151)
+    color: rgb(151, 151, 151);
 }
 .linha1, .linha2, .linha3{
     display: flex;
     flex-direction: row;
     gap: 20px;
 }
+.part-right-content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
 .terms nav:hover{
     text-decoration: underline;
     cursor: pointer;
 }
+.who-to-follow{
+    width: 440px;
+}
 .who-to-follow fieldset{
     display: flex;
     flex-direction: column;
-    height: 400px;
+    height: 470px;
     background-color:rgba(151, 151, 151, 0.144);
     border: none;
     border-radius: 20px;
+}
+.who-to-follow nav{
+    color: rgb(0, 102, 255);
+    margin-left: 20px; 
+    margin-top: 40px;
+    font-size: 20px;
+}
+.who-to-follow img{
+    width: 70px; 
+    border-radius: 50px;
+}
+.perfil1{
+    gap: 10px;
+    align-items: center;
+    display: flex; 
+    flex-direction: row; 
+    margin-left: 0px;
+    justify-content: center;
+    width: 450px;
+    height: 100px;
+}
+.perfil1 button{
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: bolder;
+    height: 50px;
+    width: 110px;
+    border-radius: 50px;
+    margin-left: 110px;
+}
+.perfil1 button:hover{
+    cursor: pointer;
+}
+.perfil1:hover{
+    cursor: pointer;
+    background-color:rgba(136, 136, 136, 0.178);
+    height: 100px;
+}
+.nomeUsuario{
+    font-family: sans-serif;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    gap: 8px;
+    display: flex; 
+    flex-direction: column;
+}
+.whats-happening fieldset{
+    height: 800px;
+    border-radius: 20px;
+    background-color: rgb(151,151,151, 0.144);
+    border: none;
+    
 }
