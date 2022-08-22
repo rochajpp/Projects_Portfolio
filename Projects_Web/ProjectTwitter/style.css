@@ -190,7 +190,7 @@ body{
 }
 .areatweet{
     color: white;
-    font-size: 20px;
+    font-size: 25px;
     resize: none;
     font-family: sans-serif;
     margin-top: 20px;
@@ -198,6 +198,7 @@ body{
     background-color: unset;
     width: 500px;
     height: 40px;
+    outline: 0;
 }
 .final{
     display: flex;
