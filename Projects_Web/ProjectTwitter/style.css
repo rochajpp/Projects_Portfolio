@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: rgba(10, 20, 32, 0.993);
+    background-color: #15202B;
 }
 .twitter{
     color: rgb(209, 209, 209);
@@ -472,6 +472,7 @@ body{
     display: flex;
     flex-direction: column;
     gap: 20px;
+    margin-top: 20px;
 }
 .terms nav:hover{
     text-decoration: underline;
@@ -479,6 +480,7 @@ body{
 }
 .who-to-follow{
     width: 440px;
+ 
 }
 .who-to-follow fieldset{
     display: flex;
@@ -488,11 +490,11 @@ body{
     border: none;
     border-radius: 20px;
 }
-.who-to-follow nav{
-    color: rgb(0, 102, 255);
-    margin-left: 20px; 
-    margin-top: 40px;
-    font-size: 20px;
+
+.showmore:hover{
+    cursor: pointer;
+    background-color: rgb(136, 136, 136, 0.178);
+   
 }
 .who-to-follow img{
     width: 70px; 
@@ -506,7 +508,7 @@ body{
     margin-left: 0px;
     justify-content: center;
     width: 450px;
-    height: 100px;
+    height: 150px;
 }
 .perfil1 button{
     font-family: sans-serif;
@@ -516,15 +518,18 @@ body{
     width: 110px;
     border-radius: 50px;
     margin-left: 110px;
+    border: none;
 }
 .perfil1 button:hover{
     cursor: pointer;
+    background-color:rgb(221, 221, 221)
 }
 .perfil1:hover{
     cursor: pointer;
     background-color:rgba(136, 136, 136, 0.178);
-    height: 100px;
+    height: 150px;
 }
+
 .nomeUsuario{
     font-family: sans-serif;
     margin-left: 10px;
@@ -534,9 +539,111 @@ body{
     flex-direction: column;
 }
 .whats-happening fieldset{
-    height: 800px;
+    height: 788px;
     border-radius: 20px;
     background-color: rgb(151,151,151, 0.144);
     border: none;
+}
+.search fieldset{
+    display: flex;
+    color: rgba(219, 219, 219, 0.342);
+    height: 60px;
+    background-color: rgba(177, 177, 177, 0.123);
+    border-radius: 40px;
+    border: none;
     
+}
+.contentSearch{
+    display: flex; 
+    gap: 15px; 
+    align-items: center;
+    margin-left: 20px;
+    font-size: 25px;
+}
+.SearchTwitter{
+    background-color: unset;
+    border: none;
+    resize: none;
+    font-family: sans-serif; 
+    width: 300px; 
+    height: 30px;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    outline: 0;
+}
+.SearchTwitter:hover{
+    border: none;
+    resize: none;
+    
+}
+.SearchTwitter::placeholder{
+    font-size: 20px;
+    color: rgba(219, 219, 219, 0.342);
+}
+.new1{
+    display: flex; 
+    justify-content: left;
+    height: 130px;
+}
+.conteudoNew{
+    display: flex; 
+    flex-direction: column; 
+    gap: 10px;
+}
+.whats-happening h1{
+    color: white; 
+    margin: 20px;
+}
+.infoNew{
+    color: rgb(129,129,129);
+}
+.Tema{
+    color: white;
+}
+.fonte{
+    display: flex; 
+    gap:5px; 
+    color: rgb(129,129,129);
+}
+.link{
+    color: rgb(0, 174, 255);
+    text-decoration: none;
+}
+.link:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.whats-happening img{
+    margin-left: 50px; 
+    width: 100px; 
+    height: 100px; 
+    border-radius: 20px;
+}
+.new1 > img{
+    margin-top: 14px;
+}
+.new1 > div{
+    justify-content: center;
+    margin-left: 20px;
+}
+.new1:hover{
+    background-color: rgba(136, 136, 136, 0.178);
+    cursor: pointer;
+}
+.showmore{
+    display: flex;
+    color: rgb(0, 174, 255);
+    font-size: 20px;
+    align-items: center;
+    width: 451px;
+    height: 60px;
+    
+    border-radius: 0px 0px 20px 20px
+}
+.showmore nav{
+    margin-left: 20px;
+}
+.showmore:hover{
+
 }
